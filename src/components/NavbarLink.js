@@ -5,7 +5,7 @@ export default function NavbarLink(props) {
 export function CartLink(props) {
     return (
         <a className="link" id="cart-link">
-            <img src="" alt="" />CART
+            <img src={props.imgLink} alt="" />{props.text}
             <div id="cart-counter">0</div>
         </a>
     );

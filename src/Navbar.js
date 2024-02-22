@@ -11,7 +11,7 @@ export default function Navbar() {
                 <NavbarLink href="#blog" text="BLOG" />
                 <NavbarLink href="#about" text="ABOUT" />
                 <NavbarLink href="#contact" text="CONTACT" />
-                <CartLink />
+                <CartLink img="" text="CART" />
                 <button id="navbar-sidebar-btn"></button>
             </div>
         </div>
