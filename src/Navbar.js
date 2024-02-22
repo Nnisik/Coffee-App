@@ -3,7 +3,7 @@ import NavbarLink, {CartLink} from "./components/NavbarLink";
 
 export default function Navbar() {
     return (
-        <div className="navbar">
+        <div className="flex center-horizontal center-vertical navbar">
             <a href="#home" className="navbar-logo">CoffeeStyle.</a>
             <div className="navbar-links">
                 <NavbarLink href="#home" text="HOME" />

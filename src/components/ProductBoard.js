@@ -1,17 +1,18 @@
 import Mug, { SaleMug } from "./Mug";
+import Offer from "./Offer";
 import CuteSubheader from "./Subheader";
 
 export default function ProductBoard() {
     return (
-        <div class="products-board">
-            <div class="products-board-featured">
+        <div class="products-boards">
+            <div class="products-board">
                 <CuteSubheader subclass="products-board-header" text="FEATURED MUGS"/>
                 <div class="products-board-grid-featured">
                     <Mug img="" name="Pink Premium Ceramic" price="99.00" />
                     <SaleMug img="" name="Golden Designer Mugs" new_price="50.00" old_price="99.00" />            
                 </div>
             </div>
-            <div class="products-board-main">
+            <div class="products-board">
                 <CuteSubheader subclass="products-board-header" text="MORE PRODUCTS"/>
                 <div class="products-board-grid">
                     <SaleMug img="" name="Red Love Cup" new_price="25.00" old_price="37.00" />
@@ -21,19 +22,7 @@ export default function ProductBoard() {
                 </div>
             </div>
             <div class="products-board-promos">
-                <CuteSubheader subclass="products-board-header" text="BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE"/>
-                <div class="offer">
-                        <div class="offer-info">
-                            <h2 class="subheader offer-subheader">PREMIUM OFFER</h2>
-                            <h1 class="offer-header">Get our Coffee Magazine</h1>
-                            <p class="offer-desctip">
-                                The most versatile furniture system ever created. Designed to fit your life.
-                            </p>
-                            <button>START SHOPPING</button>
-                        </div>
-                    <div class="offer-gallery">
-                    </div>
-                </div>
+                <Offer offer_text="BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE" subheader="PREMIUM OFFER" header="Get our Coffee Magazine" text="The most versatile furniture system ever created. Designed to fit your life."/>
             </div>
         </div>
     );
