@@ -35,6 +35,18 @@ $textacsentcolor: rgb(74, 48, 134);
     align-items: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-ltr-spc-2 {
+    letter-spacing: 2px;
+}
+
 /* navbar styling */
 .navbar {
     height: 7vh;
@@ -44,33 +56,19 @@ $textacsentcolor: rgb(74, 48, 134);
 .navbar-logo {
     margin-right: 72px;
     font-size: 20px;
-    font-weight: bold;
     color: $textacsentcolor;
     text-decoration: none;
-    letter-spacing: 2px;
-}
-
-.navbar-links {
-    display: flex;
-    align-items: center;
 }
 
 .link {
     font-size: 11px;
-    font-weight: bold;
     text-decoration: none;
     margin: 0 30px;
     color: $textcolor;
-    letter-spacing: 2px;
 }
 
 .active {
     color: $extratextcolor;
-}
-
-#cart-link {
-    display: flex;
-    align-items: center;
 }
 
 #cart-counter {
@@ -80,11 +78,7 @@ $textacsentcolor: rgb(74, 48, 134);
     border-radius: 50%;
     border: none;
     background:$textcolor;
-    text-align: center;
     color: $mainbackground;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 6px;
 }
 
@@ -95,11 +89,7 @@ $textacsentcolor: rgb(74, 48, 134);
     height: 60vh;
     background: $extrabackground;
     margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .home-subheader {
@@ -120,11 +110,9 @@ $textacsentcolor: rgb(74, 48, 134);
 .home-products-btn {
     padding: 14px 25px; 
     font-size: 12px;
-    letter-spacing: 2px;
     background: $mainbackground;
     color: $extrabackground;
     margin: 48px 0 0;
-    font-weight: bold;
 }
 
 /* products section styling  */
@@ -136,17 +124,12 @@ $textacsentcolor: rgb(74, 48, 134);
 .story-section {
     width: 50%;
     margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .story-section-header {
-    text-align: center;
     color: $acsentgrey;
     font-size: 28px;
-    letter-spacing: 2px;
     font-weight: 300;
 }
 
@@ -155,16 +138,12 @@ $textacsentcolor: rgb(74, 48, 134);
     margin: 3vh auto;
     font-size: 16px;
     color: $acsentgrey;
-    text-align: center;
-    letter-spacing: 2px;
 }
 
 .story-btn {
     margin: 2vh auto 0;
     color: rgb(255, 90, 61);
     font-size: 16px;
-    text-align: center;
-    letter-spacing: 2px;
     border: none;
     outline: none;
     border-bottom: 2px solid $textcolor;
@@ -173,19 +152,12 @@ $textacsentcolor: rgb(74, 48, 134);
 
 .products-boards {
     width: 80%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
 }
 
 .products-board {
     width: 80%;
-}
-
-.products-board-header {
-    text-align: center;
 }
 
 .products-board-grid-featured,
@@ -222,21 +194,12 @@ $textacsentcolor: rgb(74, 48, 134);
 }
 
 .mug-info {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 10px;
 }
 
 .mug-info-price {
-    display: flex;
-    justify-content: center;
     margin-top: 10px;
-}
-
-.mug-info-price p {
-    font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .mug-price {

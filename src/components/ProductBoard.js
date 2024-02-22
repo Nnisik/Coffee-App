@@ -4,16 +4,16 @@ import CuteSubheader from "./Subheader";
 
 export default function ProductBoard() {
     return (
-        <div class="products-boards">
+        <div class="products-boards flex center-vertical center-horizontal">
             <div class="products-board">
-                <CuteSubheader subclass="products-board-header" text="FEATURED MUGS"/>
+                <CuteSubheader subclass="text-center" text="FEATURED MUGS"/>
                 <div class="products-board-grid-featured">
                     <Mug img="" name="Pink Premium Ceramic" price="99.00" />
                     <SaleMug img="" name="Golden Designer Mugs" new_price="50.00" old_price="99.00" />            
                 </div>
             </div>
             <div class="products-board">
-                <CuteSubheader subclass="products-board-header" text="MORE PRODUCTS"/>
+                <CuteSubheader subclass="text-center" text="MORE PRODUCTS"/>
                 <div class="products-board-grid">
                     <SaleMug img="" name="Red Love Cup" new_price="25.00" old_price="37.00" />
                     <SaleMug img="" name="Black Tea Cup" new_price="15.00" old_price="99.00" />

@@ -3,7 +3,7 @@ import CuteSubheader from "./Subheader";
 export default function Offer(props) {
     return (
         <div className="offer-container">
-            <CuteSubheader subclass="products-board-header" text={props.offer_text}/>
+            <CuteSubheader subclass="text-center" text={props.offer_text}/>
             <div class="offer">
                 <div class="offer-info">
                     <CuteSubheader subclass="offer-subheader" text={props.subheader} />

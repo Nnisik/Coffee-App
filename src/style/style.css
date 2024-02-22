@@ -28,6 +28,18 @@
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-ltr-spc-2 {
+  letter-spacing: 2px;
+}
+
 /* navbar styling */
 .navbar {
   height: 7vh;
@@ -37,33 +49,19 @@
 .navbar-logo {
   margin-right: 72px;
   font-size: 20px;
-  font-weight: bold;
   color: rgb(74, 48, 134);
   text-decoration: none;
-  letter-spacing: 2px;
-}
-
-.navbar-links {
-  display: flex;
-  align-items: center;
 }
 
 .link {
   font-size: 11px;
-  font-weight: bold;
   text-decoration: none;
   margin: 0 30px;
   color: grey;
-  letter-spacing: 2px;
 }
 
 .active {
   color: rgb(20, 20, 20);
-}
-
-#cart-link {
-  display: flex;
-  align-items: center;
 }
 
 #cart-counter {
@@ -73,11 +71,7 @@
   border-radius: 50%;
   border: none;
   background: grey;
-  text-align: center;
   color: rgb(200, 200, 200);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 6px;
 }
 
@@ -88,11 +82,7 @@
   height: 60vh;
   background: rgb(20, 17, 32);
   margin: 0 auto;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .home-subheader {
@@ -113,11 +103,9 @@
 .home-products-btn {
   padding: 14px 25px;
   font-size: 12px;
-  letter-spacing: 2px;
   background: rgb(200, 200, 200);
   color: rgb(20, 17, 32);
   margin: 48px 0 0;
-  font-weight: bold;
 }
 
 /* products section styling  */
@@ -129,17 +117,12 @@
 .story-section {
   width: 50%;
   margin: 0 auto;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .story-section-header {
-  text-align: center;
   color: rgb(50, 50, 50);
   font-size: 28px;
-  letter-spacing: 2px;
   font-weight: 300;
 }
 
@@ -148,16 +131,12 @@
   margin: 3vh auto;
   font-size: 16px;
   color: rgb(50, 50, 50);
-  text-align: center;
-  letter-spacing: 2px;
 }
 
 .story-btn {
   margin: 2vh auto 0;
   color: rgb(255, 90, 61);
   font-size: 16px;
-  text-align: center;
-  letter-spacing: 2px;
   border: none;
   outline: none;
   border-bottom: 2px solid grey;
@@ -166,19 +145,12 @@
 
 .products-boards {
   width: 80%;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
 }
 
 .products-board {
   width: 80%;
-}
-
-.products-board-header {
-  text-align: center;
 }
 
 .products-board-grid-featured,
@@ -215,21 +187,12 @@
 }
 
 .mug-info {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 10px;
 }
 
 .mug-info-price {
-  display: flex;
-  justify-content: center;
   margin-top: 10px;
-}
-
-.mug-info-price p {
-  font-weight: bold;
-  letter-spacing: 2px;
 }
 
 .mug-price {
