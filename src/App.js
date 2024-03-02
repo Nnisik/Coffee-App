@@ -1,8 +1,8 @@
 import './App.css';
 import './style/style.css';
-import Navbar from './Navbar';
-import Home from './Home';
-import Products from './Products';
+import Navbar from './components/Nav/Navbar';
+import Home from './components/Home/Home';
+import Products from './components/Products/Products';
 
 function App() {
   return (

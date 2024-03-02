@@ -1,5 +1,5 @@
-import ProductBoard from "./components/ProductBoard";
-import Story from "./components/Story";
+import ProductBoard from "./ProductBoard";
+import Story from "./Story";
 
 export default function Products() {
     return (

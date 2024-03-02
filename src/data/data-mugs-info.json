@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Red Love Cup",
+        "price": 37.00,
+        "sale": {
+            "price": 25.00
+        }
+    },
+    {
+        "id": 2,
+        "name": "Black Tea Cup",
+        "price": 29.00,
+        "sale": {
+            "price": 15.00
+        }
+    },
+    {
+        "id": 3,
+        "name": "B & W Essentials Mug",
+        "price": 19.00
+    },
+    {
+        "id": 4,
+        "name": "Winter Style Mug",
+        "price": 25.00
+    },
+    {
+        "id": 5,
+        "name": "Ceramic Tea",
+        "price": 46.00
+    },
+    {
+        "id": 6,
+        "name": "No Handle Bar Cup",
+        "price": 34.00
+    },
+    {
+        "id": 7,
+        "name": "Espresso Cup by Mugs.co",
+        "price": 25.00
+    },
+    {
+        "id": 8,
+        "name": "Pink Premium Ceramic",
+        "price": 99.00
+    },
+    {
+        "id": 9,
+        "name": "Summer Designer Cup",
+        "price": 29.00
+    }
+]

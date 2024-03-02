@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "href": "home",
+    "text": "HOME",
+    "subclass": "active"
+  },
+  {
+    "id": 2,
+    "href": "products",
+    "text": "OUR PRODUCTS",
+    "subclass": ""
+  },
+  {
+    "id": 3,
+    "href": "blog",
+    "text": "BLOG",
+    "subclass": ""
+  },
+  {
+    "id": 4,
+    "href": "about",
+    "text": "ABOUT",
+    "subclass": ""
+  },
+  {
+    "id": 5,
+    "href": "contacts",
+    "text": "CONTACT",
+    "subclass": ""
+  }
+]
