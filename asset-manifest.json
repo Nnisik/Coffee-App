@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coffee-app/static/css/main.9db60419.css",
+    "main.js": "/coffee-app/static/js/main.34f69f9b.js",
+    "static/js/453.f2955f28.chunk.js": "/coffee-app/static/js/453.f2955f28.chunk.js",
+    "index.html": "/coffee-app/index.html",
+    "main.9db60419.css.map": "/coffee-app/static/css/main.9db60419.css.map",
+    "main.34f69f9b.js.map": "/coffee-app/static/js/main.34f69f9b.js.map",
+    "453.f2955f28.chunk.js.map": "/coffee-app/static/js/453.f2955f28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db60419.css",
+    "static/js/main.34f69f9b.js"
+  ]
+}
